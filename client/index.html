@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Twitter Clone</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            header h2{
+                text-align: center;
+            }
+           
+            .twit-form{
+                width: 50%;
+                margin: 0 auto;
+            }
+            .tweets{
+                width: 50%;
+            }
+        </style>
+    </head>
+    <body>
+
+        <header>
+            <h2>Twitter Clone</h2>
+        </header>
+
+        <main>
+            <form class="twit-form">
+                <label for="name">İsminiz</label>
+                <input type="text" name="name"  class="u-full-width">
+                <label for="content">Ne düşünüyorsunuz</label>
+                <textarea name="content"  class="u-full-width" ></textarea>
+                <button class="button-primary">Gönder</button>
+            </form>
+            <div class="tweets">
+
+            </div>
+        </main>
+       
+        
+        
+    </body>
+    <script src="./client.js" ></script>
+</html>
